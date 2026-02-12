@@ -1,0 +1,64 @@
+=============== Feb 11, 2026 (UTC) ===============
+13:49:56.562489 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:49:56.594545 db@open opening
+13:49:56.601035 version@stat F·[] S·0B[] Sc·[]
+13:49:56.609576 db@janitor F·2 G·0
+13:49:56.609999 db@open done T·14.923381ms
+=============== Feb 11, 2026 (UTC) ===============
+17:47:34.762607 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:47:34.819620 version@stat F·[] S·0B[] Sc·[]
+17:47:34.820503 db@open opening
+17:47:34.827961 journal@recovery F·1
+17:47:34.828507 journal@recovery recovering @1
+17:47:34.840691 memdb@flush created L0@2 N·436 S·5KiB "act..igh,v28":"web..e-9,v189"
+17:47:34.843457 version@stat F·[1] S·5KiB[5KiB] Sc·[0.25]
+17:47:34.891391 db@janitor F·3 G·0
+17:47:34.891859 db@open done T·66.433797ms
+=============== Feb 11, 2026 (UTC) ===============
+17:55:02.332059 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:55:02.342151 version@stat F·[1] S·5KiB[5KiB] Sc·[0.25]
+17:55:02.342968 db@open opening
+17:55:02.345873 journal@recovery F·1
+17:55:02.347724 journal@recovery recovering @3
+17:55:02.365442 memdb@flush created L0@5 N·42 S·988B "iss..\x00\x00\x00,d456":"web..-22,v468"
+17:55:02.372624 version@stat F·[2] S·6KiB[6KiB] Sc·[0.50]
+17:55:02.407993 db@janitor F·4 G·0
+17:55:02.408548 db@open done T·64.939468ms
+17:55:06.599894 table@compaction L0·2 -> L1·0 S·6KiB Q·480
+17:55:06.649349 table@build created L1@8 N·28 S·608B "act..igh,v28":"web..low,v474"
+17:55:06.649989 version@stat F·[0 1] S·608B[0B 608B] Sc·[0.00 0.00]
+17:55:06.657546 table@compaction committed F-1 S-5KiB Ke·0 D·450 T·56.729562ms
+17:55:06.661891 table@remove removed @5
+17:55:06.666191 table@remove removed @2
+=============== Feb 11, 2026 (UTC) ===============
+18:00:56.064178 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:00:56.102064 version@stat F·[0 1] S·608B[0B 608B] Sc·[0.00 0.00]
+18:00:56.102758 db@open opening
+18:00:56.104784 journal@recovery F·1
+18:00:56.105262 journal@recovery recovering @6
+18:00:56.150959 memdb@flush created L0@9 N·22 S·635B "iss..\x00\x00\x00,d501":"web..-23,v491"
+18:00:56.154371 version@stat F·[1 1] S·1KiB[635B 608B] Sc·[0.25 0.00]
+18:00:56.215565 db@janitor F·4 G·0
+18:00:56.216282 db@open done T·113.165012ms
+18:01:00.696317 table@compaction L0·1 -> L1·1 S·1KiB Q·503
+18:01:00.705915 table@build created L1@12 N·28 S·606B "act..igh,v28":"web..low,v497"
+18:01:00.706207 version@stat F·[0 1] S·606B[0B 606B] Sc·[0.00 0.00]
+18:01:00.711271 table@compaction committed F-1 S-637B Ke·0 D·22 T·14.084682ms
+18:01:00.714602 table@remove removed @9
+18:01:00.716817 table@remove removed @8
+=============== Feb 11, 2026 (UTC) ===============
+18:13:07.037048 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:13:07.047062 version@stat F·[0 1] S·606B[0B 606B] Sc·[0.00 0.00]
+18:13:07.048125 db@open opening
+18:13:07.051285 journal@recovery F·1
+18:13:07.051782 journal@recovery recovering @10
+18:13:07.068366 memdb@flush created L0@13 N·22 S·640B "iss..\x00\x00\x00,d524":"web..-24,v514"
+18:13:07.071625 version@stat F·[1 1] S·1KiB[640B 606B] Sc·[0.25 0.00]
+18:13:07.113465 db@janitor F·4 G·0
+18:13:07.113893 db@open done T·65.446336ms
+18:13:11.511115 table@compaction L0·1 -> L1·1 S·1KiB Q·526
+18:13:11.553648 table@build created L1@16 N·28 S·600B "act..igh,v28":"web..low,v520"
+18:13:11.554251 version@stat F·[0 1] S·600B[0B 600B] Sc·[0.00 0.00]
+18:13:11.561726 table@compaction committed F-1 S-646B Ke·0 D·22 T·50.073514ms
+18:13:11.565116 table@remove removed @13
+18:13:11.568366 table@remove removed @12

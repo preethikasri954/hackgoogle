@@ -1,0 +1,7 @@
+flask
+gitpython
+requests
+bandit
+google-generativeai
+python-dotenv
+google-adk
